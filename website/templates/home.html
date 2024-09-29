@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="col-md-6 offset-md-3"></div>
+<div class="col-md-6 offset-md-3">
 {% if user.is_authenticated %}
 <h1>Hello World!</h1>
 {% else %}
@@ -15,5 +15,6 @@
     </div>
     <button type="submit" class="btn btn-secondary">Login</button>
 </form>
+</div>
 {% endif %}
 {% endblock %}
